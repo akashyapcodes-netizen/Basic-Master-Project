@@ -1,0 +1,171 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: background-color 0.3s ease,color 0.3 ease;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg,#d16767,#d78a69);
+
+
+}
+input ,section{
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.container{
+
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background: rgb(171, 177, 179);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    
+}
+.input-section{
+    display: flex;
+    gap : 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input:focus{
+    border-color: #4caf50;
+}
+input{
+    padding: 8px;
+    cursor: pointer;
+
+}
+li{
+    margin-top: 10px;
+    list-style: none;
+    padding: 10px;
+    background: #fafafa;
+    border-radius: 8px;
+
+
+}
+.pro-con{
+   width: 80px;
+    height: 20px;   
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    background: #ddd;
+    border-radius: 20px;
+}
+.pro-bar{
+    height: 100%;
+    width: 0%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+.dark-mode button{
+
+    background-color: #333;
+    color: white;
+}
+.dark-mode input{
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+}
+.dark-mode li{
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    margin-bottom: 8px ;
+    padding: 8px;
+}
+.dark-mode .container{
+    background: #1e1e1e;
+}
+.levelValue{
+    transition: transform 0.3s ease;
+}
+
+
+li{
+    transition: all 0.3s ease;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: slideIn 0.3s forwards;
+}
+@keyframes slideIn{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.complete-animate{
+    transform: scale(0.95);
+    opacity: 0.6;
+    transition: all 0.2s ease;
+}
+
+button {
+   background: #4CAF50;
+   color: white;
+    padding: 8px ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+button:hover{
+    transform: translate(-1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+}
+button:active{
+    transform: scale(0.92);
+   
+}
+body{
+    transition: background-color 0.3s ease,color 0.3s ease;
+}
+li{
+    transition: background-color 0.3s ease,color 0.3s ease;
+    margin: 10px;
+    list-style: none;
+    padding: 12px;
+    background: #fafafa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 3px 8px rgba(0,0 , 0 ,0.08);
+}
+
+.star-btn{
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+.star-btn:hover{
+    transform: scale(1.2);
+}
+.pro-bar{
+    height: 100%;
+    background: linear-gradient(90deg,#4caf50,#8bc34a);
+    border-radius: 10px;
+    transition: width 0.4s ease-in-out;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
+
+   
+}
+#priSelect{
+    border-radius: 5px;
+    background-color: #333;
+}
+li :hover{
+    transform: translate(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}

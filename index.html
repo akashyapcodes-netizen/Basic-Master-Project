@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shyrash coding </title>
+</head>
+<body>
+<div class="container">
+<button class="themBtn"> Dark Mode 🌑</button>
+        <btn>My Task Game </btn>
+            <h3>Score : <span class="scoreValue">0</span></h3>
+                <div class="taskState">
+                    <span class="totalcount">Total : 0</span>
+                        <span class="comp-count">Completed : 0</span>
+                              <span class="pending-count">Pending : 0</span>
+                                    <p>Important : <span class="importantStar">0</span></p>
+                                 </div>
+                            <h3>Level : <span class="levelValue"></span></h3>
+                          <div class="pro-con">
+                      <div class="pro-bar"></div>
+              
+                    </div>
+                    <div class="input-section">                   
+            <input type="text" id="taskInput" placeholder="Enter Your Task">
+            <input type="date" id="dueDate">
+            <input type="text" class="searchInput" placeholder="Search Task">
+         <select id="priSelect">
+    <option value="High">High 🔴</option>
+<option value="Medium">Medium 🟡</option>
+    <option value="Low">Low 🟢</option>
+      
+     </select>
+             <button class="btn">Add Task</button>
+           </div>   
+                 <button class="save-btn" style="display: none;">Save</button>
+                    <button class="cancel-btn" style="display:none;">Cancel</button>
+                       <ul id="taskList"></ul>
+                           <button class="allBtn">All 📣</button>
+                               <button class="comp-Btn">Completed ✅ </button>
+                                   <button class="pending-Btn">Pending ⌛️</button>
+                                       <button class="clear-Btn">Clear Completed ❎</button>
+                                       <button class="important">Important 🚯</button>
+                                          <hr>
+
+</div>
+    
+
+    <script src="Script.js"></script>
+</body>
+</html>
